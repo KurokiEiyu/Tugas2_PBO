@@ -1,11 +1,9 @@
-package Nusput.P2;
-
 public class HandPhone {
     String jenis_hp;
     int tahun_pembuatan;
     public void setDataHP(String jenis_hp, int tahun_pembuatan){
-        this.jenis_hp=jenis_hp;
-        this.tahun_pembuatan=tahun_pembuatan;
+        this.jenis_hp = jenis_hp;
+        this.tahun_pembuatan = tahun_pembuatan;
     }
 
     String getJenisHp(){
@@ -17,8 +15,8 @@ public class HandPhone {
     }
 
     public static void main(String[] args) {
-        HandPhone hp=new HandPhone();
-        hp.setDataHP("Redmi 10", 2021);
+        HandPhone hp = new HandPhone();
+        hp.setDataHP("Realme GT ME", 2021);
         System.out.println(hp.getJenisHp());
         System.out.println(hp.getTahunPembuatan());
     }
